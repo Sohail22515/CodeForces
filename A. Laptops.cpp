@@ -1,7 +1,7 @@
 // I this question I have learn 1 new concept and and implementation of retunr 0
 /* 
   The concept which I  have learned is of pair, pair is a set of data just like map, but i found it much easiesr to uses in comparision ot map.
-retun 0 is used to end the function and at the end of this code you will found that how beautifully the return is used, if I would have to bsring the same output without return it would have taken more line and memory to do that. */
+retun 0 is used to end the function and at the end of this code you will  found that how beautifully the return is used, if I would have to bsring the same output without return it would have taken more line and memory to do that. */
 
 
 
