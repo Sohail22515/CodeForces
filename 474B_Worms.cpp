@@ -1,4 +1,4 @@
-// In this code i have learn a new funtion lower_bond
+// In this code i have learn a new funtion lower_bond(first,last,value)
 #include<iostream>
 #include<vector>
 #include<cmath>
