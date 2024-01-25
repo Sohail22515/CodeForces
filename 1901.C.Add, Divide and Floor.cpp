@@ -38,19 +38,14 @@
     ll int arr[n];
     loo(n){cin>>arr[i];}
     sort(arr,arr+n);
-    vector<int>v;
-    ll int i=0;
-    while(arr[0]!=arr[n-1]){
-      ll int avg=arr[0];
-      v.pb(avg);
-      arr[0]=(arr[0]+avg)/2;
-      arr[n-1]=(arr[n-1]+avg)/2;
-      i++;
+    ll int j=0;
+    while(arr[n-1]!=arr[0]){
+      arr[n-1]=(arr[n-1]+arr[0])/2;
+      j++;
     }
-    cout<<i<<nl;
-    if(i<=n){
-      int s=v.size();
-      loo(s){cout<<v[i]<<" ";}
+    cout<<j<<nl;
+    if(j<=n){
+      loo(j){cout<<arr[0]<<" ";}
       cout<<nl;
     }
     
